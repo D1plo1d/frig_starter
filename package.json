@@ -1,0 +1,33 @@
+{
+  "name": "resume",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "coffee-script": "1.9.3",
+    "webpack": "*",
+    "webpack-dev-server": "*",
+    "css-loader": "*",
+    "style-loader": "*",
+    "stylus-loader": "*",
+    "babel-loader": "*",
+    "babel-core": "5.8.20",
+    "coffee-loader": "*",
+    "jade-loader": "*",
+    "url-loader": "*",
+    "jsx-loader": "*",
+    "eslint-loader": "git+https://github.com/MoOx/eslint-loader.git#master",
+    "eslint": "*",
+    "babel-eslint": "*",
+
+    "jquery": "*",
+    "lodash": "*",
+    "react": "0.13.3",
+    "classnames": "*",
+    "frig": "0.2.1",
+    "frigging-bootstrap": "0.2.1"
+  },
+  "engines": {
+    "node": "~0.12.x",
+    "npm": "2.7.x"
+  }
+}
