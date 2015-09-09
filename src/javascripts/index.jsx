@@ -2,8 +2,8 @@
 require("frigging-bootstrap/dist/frigging-bootstrap.css")
 require("../stylesheets/index.styl")
 
-
 // More loading
+require("babel-core/polyfill")
 let React = require("react")
 let LoginPage = require("./components/login_page.jsx")
 
