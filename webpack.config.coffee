@@ -28,7 +28,7 @@ module.exports =
       }
       {
         test: /\.jsx?$/
-        exclude: /^(node_modules|dist|scripts)/
+        include: /src\/javascripts/
         loader: "babel?stage=0"
       }
       {
